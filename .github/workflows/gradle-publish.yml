@@ -30,7 +30,7 @@ jobs:
       - name: Checkout sources
         uses: actions/checkout@v4
         with:
-          repository: jadehh/FongMiTV
+          repository: zhuziwuming/fmTV
           ref: release
           path: tv
 

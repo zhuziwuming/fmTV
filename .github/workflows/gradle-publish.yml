@@ -1,8 +1,9 @@
 name: Release
 on:
   push:
-    tags:
-      - v*
+  branches: [ "release" ]
+  pull_request:
+    branches: [ "release" ]
   workflow_dispatch: # 手动触发
 jobs:
   build:

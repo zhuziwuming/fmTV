@@ -3,7 +3,7 @@ on:
   push:
     tags:
       - v*
-workflow_dispatch: # 手动触发
+  workflow_dispatch: # 手动触发
 jobs:
   build:
     name: Build On:(${{ matrix.os }},framework:${{ matrix.framework}})
